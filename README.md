@@ -1,19 +1,16 @@
-# exchange-rate
+# Компонент для отображения курса доллара к рублю
 
-## Project setup
-```
-npm install
-```
+![Currency](https://img.icons8.com/ios/452/money-bag.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Этот компонент отображает текущий курс доллара (USD) к рублю (RUB). Он использует API для получения актуальных данных и позволяет обновлять или очищать курс с помощью кнопок.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Функции
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Отображение текущего курса доллара к рублю.
+- Кнопка **"Обновить"** для получения актуального курса.
+- Кнопка **"Очистить"** для удаления данных о курсе.
+
+## Используемые технологии
+
+- **Vue 3** — для построения компонента.
+- **Axios** — для получения данных с API.
